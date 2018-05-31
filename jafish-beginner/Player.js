@@ -162,7 +162,7 @@ class Player {
     // 方法封装
     warrior = this.confirmed(warrior)
 
-    const space = warrior._feel() // 感知区域，1个空格
+    // const space = warrior._feel() // 感知区域，1个空格
     const spaceLook = warrior._look() // 感知区域，3个空格
 
     // 在远程感知区域内有单位 0 -> 无单位， 1 -> 俘虏， 2 -> 敌人， 3 -> 墙体， 4 -> 其他
