@@ -317,6 +317,8 @@ class Player {
       this.addUnitCount() // 遭遇单位进度+1
       this.state.defeatCount = 0 // 重置计数
     }
+    
+    return this.state.defeatCount
   }
   addRetreatDistance(reset) {
     // 撤退距离计数
